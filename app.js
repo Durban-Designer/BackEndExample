@@ -11,7 +11,7 @@ var offers = require('./offers.js');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect("mongodb://admin:123abc@ds143156.mlab.com:43156/test-dcd", {
+mongoose.connect("", {
   useNewUrlParser: true
 }, (error) => {
   console.log(error);
